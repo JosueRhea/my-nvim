@@ -24,4 +24,8 @@ telescope.setup({
   },
 })
 
--- telescope.load_extension("fzf")
+local ok, fzf = pcall(require, "fzf")
+if not ok then
+ return print("Fzf not found")
+end
+telescope.load_extension("fzf")
