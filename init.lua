@@ -1,0 +1,7 @@
+require("josue.plugins-setup")
+require("josue.core.options")
+require("josue.core.keymaps")
+require("josue.core.colorscheme")
+require("josue.plugins.nvim-tree")
+require("josue.plugins.lualine")
+require("josue.plugins.telescope")
